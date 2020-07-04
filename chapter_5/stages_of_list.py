@@ -1,16 +1,19 @@
 #!/usr/bin/env python3
+'''
+Pick the right age name
+'''
 
-persons_age = 5
+PERSONS_AGE = 5
 
-if persons_age < 2:
+if PERSONS_AGE < 2:
     print("The person is a baby.")
-elif persons_age >= 2 and persons_age < 4:
+elif 4 < PERSONS_AGE >= 2:
     print("The person is a toddler.")
-elif persons_age >= 4 and persons_age < 13:
+elif 13 > PERSONS_AGE >= 4:
     print("The person is a kid.")
-elif persons_age >= 13 and persons_age < 20:
+elif 20 > PERSONS_AGE >= 13:
     print("The person is a teenager.")
-elif persons_age >= 20 and persons_age < 65:
+elif 65 > PERSONS_AGE >= 20:
     print("The person is an adult.")
-elif persons_age > 65:
+elif PERSONS_AGE > 65:
     print("The person is an elder.")

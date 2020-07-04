@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+'''
+Greeting messages, with a different one for admin
+'''
 
 users = ['pparker', 'srogers', 'bbanner', 'astark', 'admin']
 

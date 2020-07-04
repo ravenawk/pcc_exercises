@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+'''
+What happens when the list is empty
+'''
 
 users = []
 

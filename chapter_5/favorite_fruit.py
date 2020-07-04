@@ -1,18 +1,21 @@
 #!/usr/bin/env python3
+'''
+Print out fruits that are in a list
+'''
 
 fruits = ['watermelon', 'apples', 'cherries']
 
 if 'bananas' in fruits:
-    print(f"You really like bananas.")
+    print("You really like bananas.")
 
 if 'cherries' in fruits:
-    print(f"You really like cherries.")
+    print("You really like cherries.")
 
 if 'watermelon' in fruits:
-    print(f"You really like watermelon.")
+    print("You really like watermelon.")
 
 if 'oranges' in fruits:
-    print(f"You really like oranges.")
+    print("You really like oranges.")
 
 if 'apples' in fruits:
-    print(f"You really like apples.")
+    print("You really like apples.")
