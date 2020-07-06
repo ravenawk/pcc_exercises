@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 '''
-Print out a glossary of terms
+This is a duplicate from gloassary becaues I cheated and did a loop.
 '''
 
 glossary_terms = {
