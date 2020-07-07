@@ -21,4 +21,7 @@ cities_info = {
             }
         }
 
-print(cities_info)
+for city, info in cities_info.items():
+    print(f"The city is {city} and its info is: ")
+    for key, item in info.items():
+        print(f"\t{key} : {item}")
