@@ -1,1 +1,2 @@
-This the exercises from Python Crash Course
+Exercises from Python Crash Course Second Edition
+Working through the whole book
