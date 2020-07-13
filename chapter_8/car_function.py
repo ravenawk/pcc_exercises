@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Function that prints out some cars
+Module that prints out some cars
 """
 
 
