@@ -2,6 +2,8 @@
 """
 Describe and define a restaurant and then a child class
 """
+
+
 class Restaurant:
     """A model of a restaurant"""
 
@@ -31,18 +33,16 @@ class Restaurant:
 class IceCreamStand(Restaurant):
     """model of an ice cream stand"""
 
-    def __init__(self, name, cuisine='ice cream'):
+    def __init__(self, name, cuisine="ice cream"):
         """initialize flavor's available"""
         super().__init__(name, cuisine)
-        self.flavors = ['chocolate', 'vanilla', 'strawberry']
+        self.flavors = ["chocolate", "vanilla", "strawberry"]
 
     def show_flavors(self):
         """Show all the flavors available"""
         print(f"The following flavors are available {self.flavors}")
 
 
-my_icecream_parlor = IceCreamStand('Handles')
+my_icecream_parlor = IceCreamStand("Handles")
 my_icecream_parlor.show_flavors()
 my_icecream_parlor.describe_restaurant()
-
-        
