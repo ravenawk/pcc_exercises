@@ -18,11 +18,9 @@ class Restaurant:
         """Open retaurant"""
         print(f"{self.name} is open.")
 
-
-my_restaurant = Restaurant("Miguel's", "Mexican")
-
-print(my_restaurant.name)
-print(my_restaurant.cuisine)
-my_restaurant.describe_restaurant()
-my_restaurant.open_restaurant()
-
+if __name__ == '__main__':
+    my_restaurant = Restaurant("Miguel's", "Mexican")
+    print(my_restaurant.name)
+    print(my_restaurant.cuisine)
+    my_restaurant.describe_restaurant()
+    my_restaurant.open_restaurant()

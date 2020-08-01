@@ -51,11 +51,11 @@ class Privileges:
             print("This user doesn't have any privileges")
 
 
-the_admin = Admin("Reed", "Richards")
-
-the_admin.describe_user()
-the_admin.greet_user()
-the_admin.privileges.describe_privileges()
-the_admin.privileges.set_privileges("can update users name", "can update users profiles", "can change users password")
-the_admin.privileges.describe_privileges()
+if __name__ == '__main__':
+    the_admin = Admin("Reed", "Richards")
+    the_admin.describe_user()
+    the_admin.greet_user()
+    the_admin.privileges.describe_privileges()
+    the_admin.privileges.set_privileges("can update users name", "can update users profiles", "can change users password")
+    the_admin.privileges.describe_privileges()
 
